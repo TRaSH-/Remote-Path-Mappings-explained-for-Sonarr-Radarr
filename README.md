@@ -7,13 +7,27 @@ Seems that allot of people are having to understand how the remote path mapping 
 I will try to explain it with some screenshots and a short description,
 for this I will use screenshots used from Radarr.
 
+
+
+# Do I need Remote Path Mappings ?
+
+If you download client is on another system then Radarr/Sonarr then you probably need to make use of Remote Path Mappings.
+
+You will get a error that looks a little bit like the following screenshot.
+
+![OH NO!!!](http://my.jetscreenshot.com/13737/20190126-oiao-44kb.png)
+
+So looking at this screenshot it seems we need to make use of Remote Path Mappings !!!
+
 ------
 
-First we navigate in Radarr to the Settings => Download Client Tab.
+# How ?
+
+First we navigate in Radarr to the Settings => `Download Client` Tab.
 
 ![Download Client Tab](http://my.jetscreenshot.com/13737/20190126-5k5d-31kb.png)
 
-At the bottom you choose 'Add new mapping'
+At the bottom you choose `Add new mapping`
 
 ![add new mapping](http://my.jetscreenshot.com/13737/20190126-gsm6-11kb.png)
 
@@ -21,9 +35,9 @@ A screen will popup with the following options.
 
 ![Add Mapping](http://my.jetscreenshot.com/13737/20190126-0srw-12kb.png)
 
-1. Host => This is the hostname or IP you set in your download client settings.
-2. Remote Path => The download path that you've set in your download client.
-3. Local Path => The path Sonarr/Radarr needs to access the same path.
+1. `Host` => This is the hostname or IP you set in your download client settings.
+2. `Remote Path` => The download path that you've set in your download client.
+3. `Local Path` => The path Sonarr/Radarr needs to access the same path.
 
 
 
@@ -68,5 +82,4 @@ Mounting/Networkshare what ever but Radarr needs to have local access to it so y
 The final result will look like this.
 
 ![Qbittorrent Final Result](http://my.jetscreenshot.com/13737/20190126-ngqk-13kb.png)
-
 
